@@ -96,5 +96,5 @@ for date in Dates:
     print()
     print('Котировки драгоценных металлов на %s:' % (date))
     print('%s: %s' % ('Золото', Metall['gold']))
-    print('%s: %s' % ('Евро', Metall['silver']))
+    print('%s: %s' % ('Серебро', Metall['silver']))
     print()
