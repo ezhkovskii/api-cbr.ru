@@ -90,11 +90,10 @@ Dates = [GetDateTomorrow(), GetDateToday(), GetDateYesterday()]
 for date in Dates:
     Valute = GetDollarAndEuro(date)
     Metall = GetGold(date)
-    print('Курсы валют на %s:' % (date))
+    print('Курсы валют и котировки драгоценных металлов на %s:' % (date))
     print('%s: %s' % ('Доллар', Valute['dollar']))
     print('%s: %s' % ('Евро', Valute['euro']))
-    print()
-    print('Котировки драгоценных металлов на %s:' % (date))
     print('%s: %s' % ('Золото', Metall['gold']))
     print('%s: %s' % ('Серебро', Metall['silver']))
     print()
+
