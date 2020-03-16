@@ -64,4 +64,4 @@ print('%s: %s' % ('Евро', Valute['euro']))
 
 print('Котировки драгоценных металлов на %s:' % (DateYesterday))
 print('%s: %s' % ('Золото', Metall['gold']))
-print('%s: %s' % ('Евро', Metall['silver']))
+print('%s: %s' % ('Серебро', Metall['silver']))
