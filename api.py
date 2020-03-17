@@ -82,9 +82,6 @@ def GetGold(date):
         result['silver'] = 'Неизвестно'
         return result
 
-DateTomorrow = GetDateTomorrow()
-DateToday = GetDateToday()
-DateYesterday = GetDateYesterday()
 Dates = [GetDateTomorrow(), GetDateToday(), GetDateYesterday()]
 
 for date in Dates:
