@@ -64,7 +64,7 @@ def GetDollarAndEuro(date):
         result['euro'] = 'Неизвестно'
         return result
 
-def GetGold(date):
+def GetGoldSilver(date):
     result = {
         'gold': '',
         'silver': '',
@@ -86,7 +86,7 @@ Dates = [GetDateTomorrow(), GetDateToday(), GetDateYesterday()]
 
 for date in Dates:
     Valute = GetDollarAndEuro(date)
-    Metall = GetGold(date)
+    Metall = GetGoldSilver(date)
     print('Курсы валют и котировки драгоценных металлов на %s:' % (date))
     print('%s: %s' % ('Доллар', Valute['dollar']))
     print('%s: %s' % ('Евро', Valute['euro']))
